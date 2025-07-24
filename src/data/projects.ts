@@ -1,6 +1,6 @@
 // Project data interface definition
 import boardly from "../assets/boardly.png";
-import attendance from "../assets/aimath.png";
+import attendance2 from "../assets/attendance2.png";
 import hostelHub from "../assets/hostelHub.png";
 import portfolio from "../assets/portfolio.png";
 import password from "../assets/password.png";
@@ -43,7 +43,7 @@ export const projects: ProjectData[] = [
     id: 2,
     title: "FaceTrack - Face Attendance System", // Change project title
     description: "This project uses facial recognition technology to automate attendance tracking in classrooms. It captures student faces via webcam and matches them against a database to mark attendance.", // Update description
-    image: attendance,
+    image: attendance2,
     tags: ["Python", "OpenCV", "Face Recognition", "Machine Learning" , "Streamlit", "Redis","NumPy","Pandas"], // Update tech tags
     liveUrl: "https://atul21mangla-face-attendance-system-home-cwmc9x.streamlit.app/Real_Time_Prediction", // Optional live demo URL
     repoUrl: "https://github.com/atul21mangla/Face-Attendance-System", // Update with your repo URL

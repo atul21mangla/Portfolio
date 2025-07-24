@@ -9,7 +9,7 @@ import {
 } from "lucide-react";
 import { motion } from "framer-motion";
 import Tilt from "react-parallax-tilt";
-import myPhoto from "../../assets/myphoto.jpg";
+import myPhoto2 from "../../assets/myphoto2.jpg";
 // import React, { useEffect, useRef, useState } from "react";
 
 interface AboutProps {
@@ -101,7 +101,7 @@ const About: React.FC<AboutProps> = ({ id }) => {
           className="relative mb-16 max-w-4xl w-full bg-black/70 backdrop-blur-md rounded-2xl shadow-xl border border-[rgb(120,198,187)]/20 p-10 transition-all duration-300 group hover:shadow-[0_0_48px_12px_rgba(120,198,187,0.35)] hover:border-[rgb(120,198,187)]"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          whileHover={{ scale: 1.06 }}
+          whileHover={{ scale: 1.01 }}
           viewport={{ once: true }}
         >
           {/* Glossy overlay on hover */}
@@ -189,7 +189,7 @@ const About: React.FC<AboutProps> = ({ id }) => {
               className="relative bg-black/70 backdrop-blur-md rounded-2xl shadow-xl border border-[rgb(120,198,187)]/20 p-12 min-h-[34rem] h-96 w-full flex flex-col justify-center overflow-hidden transition-all duration-300 group hover:shadow-[0_0_48px_12px_rgba(120,198,187,0.35)] hover:border-[rgb(120,198,187)]"
               initial={{ opacity: 0, x: -20 }}
               whileInView={{ opacity: 1, x: 0 }}
-              whileHover={{ scale: 1.04 }}
+              whileHover={{ scale: 1.01 }}
               viewport={{ once: true }}
             >
               {/* Glossy overlay on hover */}
@@ -238,10 +238,10 @@ const About: React.FC<AboutProps> = ({ id }) => {
             className="flex items-center justify-center"
           >
             <img
-              src={myPhoto}
+              src={myPhoto2}
               alt="My Photo"
-              className="w-96 h-96 object-cover rounded-full border-8 border-[rgb(120,198,187)] shadow-2xl transition-all duration-300 hover:scale-105 hover:shadow-[0_0_64px_16px_rgba(120,198,187,0.35)]"
-              style={{ boxShadow: "0 12px 48px 0 rgba(120,198,187,0.18)" }}
+              className="w-[30rem] h-[30rem] object-cover rounded-full border-8 border-[rgb(120,198,187)] shadow-2xl transition-all duration-300 hover:scale-105 hover:shadow-[0_0_64px_16px_rgba(120,198,187,0.35)]"
+              style={{ boxShadow: "10 12px 48px 0 rgba(120,198,187,0.18)" }}
             />
           </Tilt>
         </div>
