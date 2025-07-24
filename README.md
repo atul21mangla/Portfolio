@@ -1,10 +1,10 @@
 # 💼 My Portfolio Website
 
-This is my personal portfolio website showcasing my projects, skills, and contact information. Built with [React](https://reactjs.org/),typescript, styled-components, and responsive design principles.
+This is my personal portfolio website showcasing my projects, Experience, and Skills. Built with [React](https://reactjs.org/),typescript, styled-components, and responsive design principles.
 
 ## 🌐 Live Website
 
-👉 [Visit Portfolio Website](https://divyansh9007.github.io/portfolio/)
+👉 [Visit Portfolio Website](https://atul21mangla.github.io/Portfolio/)
 
 ## 🛠️ Features
 
