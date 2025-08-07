@@ -12,13 +12,21 @@ export interface CertificationData {
 export const certifications: CertificationData[] = [
   {
     id: 1,
+    title: "Oracle Cloud Databases Services", // Update certification title
+    issuer: "Oracle", // Update certification issuer
+    date: "2025", // Update date
+    credentialUrl: "https://drive.google.com/file/d/1lQiMN95nC3xlrTu_oYz4Iv2qQNPyv2zg/view?usp=sharing", // Update with your credential URL
+    description: "Demonstrated expertise in managing, configuring, and optimizing Oracle Cloud Infrastructure and autonomous databases" // Update description
+  },
+  {
+    id: 2,
     title: "Introduction to Generative AI", // Update certification title
     issuer: "Google Cloud", // Update certification issuer
     date: "2024", // Update date
     credentialUrl: "https://www.cloudskillsboost.google/public_profiles/f84fc625-03c5-4a55-a2ad-7d5c64690a43/badges/13456478?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share", // Update with your credential URL
     description: "Achieved Introduction to Generative AI certification, validating foundational knowledge and understanding of AI concepts and applications." // Update description
   },{
-    id: 2,
+    id: 3,
     title: "Career Essentials in Generative AI by Microsoft", // Update certification title
     issuer: "Microsoft", // Update certification issuer
     date: "2025", // Update date
@@ -26,7 +34,7 @@ export const certifications: CertificationData[] = [
     description: "Achieved Career Essentials in Generative AI certification, validating foundational knowledge and understanding of AI concepts and applications." // Update description
   },
   {
-    id: 3,
+    id: 4,
     title: "Forage Certification: Data Analytics and Visualization Job Simulation", // Update certification title
     issuer: "Accenture", // Update certification issuer
     date: "2024", // Update date
@@ -34,7 +42,7 @@ export const certifications: CertificationData[] = [
     description: "Completed Forage’s Data Analytics and Visualization Job Simulation, gaining hands-on experience with real-world engineering tasks like debugging, feature implementation, and code collaboration." // Update description
   },
   {
-    id: 4,
+    id: 5,
     title: "HackerRank Problem Solving", // Update certification title
     issuer: "HackerRank", // Update certification issuer
     date: "2025", // Update date

@@ -142,7 +142,7 @@ const Footer = () => {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                <a href="https://drive.google.com/file/d/11RyRpzbCzDaq0-68CBc-eTtmbDiAtMdy/view?usp=sharing" download target="_blank" className="flex items-center">
+                <a href="https://drive.google.com/file/d/1Bc0en7rpjPoncmwGWGXNdnGKiL-wFGvZ/view?usp=sharing" download target="_blank" className="flex items-center">
                   Download Resume
                 </a>
               </motion.button>
