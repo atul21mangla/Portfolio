@@ -5,6 +5,7 @@ import hostelHub from "../assets/hostelHub.png";
 import portfolio from "../assets/portfolio.png";
 import password from "../assets/password.png";
 import Calculator from "../assets/calculator.png";
+import algolens from "../assets/algolens.png";
 
 export interface ProjectData {
   id: number;
@@ -60,6 +61,23 @@ export const projects: ProjectData[] = [
   },
   {
     id: 3,
+    title: "AlgoLens", // Change project title
+    description: "AlgoLens is an engaging, visual-first platform designed to showcase algorithm performance by racing them against each other in real time. It’s a hands-on way to explore computational efficiency and complexity concepts.", // Update description
+    image: algolens,
+    tags: ["React", "Vite", "Framer Motion", "TailwindCSS" , "React Router"],
+    repoUrl: "https://github.com/atul21mangla/AlgoLens", // Update with your repo URL
+    liveUrl: "https://algo-lens-chi.vercel.app/", // Optional live demo URL
+   
+    techStack: [
+      "React",
+      "Javascript",
+      "Framer Motion",
+      "TailwindCSS"
+     
+    ]
+  },
+  {
+    id: 4,
     title: "HostelHub", // Change project title
     description: "HostelHub is a modern, user-friendly hostel management system built with React and Tailwind CSS. It provides a comprehensive solution for hostel administrators and residents to manage and access information about blocks, rooms, mess facilities, and more.", // Update description
     image: hostelHub,
@@ -75,7 +93,7 @@ export const projects: ProjectData[] = [
     ]
   },
   {
-    id: 4,
+    id: 5,
     title: "Portfolio Website", // Change project title
     description: "A modern and interactive portfolio showcasing my skills, projects, and journey as a frontend developer. Built with React, Tailwind CSS, and Framer Motion to deliver a smooth and engaging user experience.", // Update description
     image: portfolio,
@@ -91,7 +109,7 @@ export const projects: ProjectData[] = [
     ]
   },
   {
-    id: 5,
+    id: 6,
     title: "Random Password Generator", // Change project title
     description: "A simple, clean, and secure front-end web application for generating random passwords.Easily adjust the desired password length using a slider.Get immediate visual feedback on the strength of the generated password (Too Weak, Weak, Medium, Strong).", // Update description
     image: password,
@@ -107,7 +125,7 @@ export const projects: ProjectData[] = [
     ]
   },
   {
-    id: 6,
+    id: 7,
     title: "Web Calculator", // Change project title
     description: "A simple web-based calculator application built with HTML, CSS, and JavaScript. It allows users to perform basic arithmetic operations and provides a user-friendly interface.", // Update description
     image: Calculator,
